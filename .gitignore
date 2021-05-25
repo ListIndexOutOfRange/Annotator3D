@@ -1,0 +1,41 @@
+#    Byte-compiled / optimized / DLL files
+**/__pycache__/
+**/.ipynb_checkpoints/
+*.py[cod]
+*.pyc
+*.pyo
+*.so
+
+# Vscode
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Pipenv
+Pipfile
+Pipfile.lock
+
+# Data for Training
+data/
+.tiff
+.npz
+
+# Data from Training
+lightning_logs/
+*.pt
+**.pt
+**predictions/
+
+# Data not intended for deployment
+# **.txt
+**.m
+
+# Test & Backups
+*test*.py
+**test**
+*backup*.py
+!testset_picking.py

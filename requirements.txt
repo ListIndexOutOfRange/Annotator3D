@@ -1,0 +1,6 @@
+numpy==1.20.1
+tifffile==2021.3.17
+opencv_python==4.5.1.48
+streamlit==0.81.1
+scikit_image==0.18.1
+scipy==1.6.1
